@@ -16,7 +16,7 @@ Build and Run application using docker
 ======================================
 
 To build application execute the following command:
-`mvn clean build`
+`mvn clean install`
 
 To build a docker image execute the following command:
 `docker build -t waracle/cake-manager .`
